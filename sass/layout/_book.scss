@@ -1,0 +1,28 @@
+.book {
+    width: 60vw;
+    margin: 0 auto;
+    margin-top: 4rem;
+
+    &__header {
+        font-size: 2rem;
+
+    }
+
+    &__formbox {
+        font-size: 1.3rem;
+        margin-top: 3rem;
+    }
+
+    .formgroup:not(:last-child) {
+        margin-bottom: 1.5rem;
+    }
+}
+
+label,
+input {
+    display: block;
+}
+
+input {
+    border: 1px solid black
+}

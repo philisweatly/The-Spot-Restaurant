@@ -1,0 +1,24 @@
+.about {
+
+    &__box {
+        text-align: center;
+        margin: 8rem auto;
+    }
+
+    &__text {
+
+
+        &--main {
+            font-size: 3rem;
+        }
+
+        &--sub {
+            font-size: 1.3rem;
+        }
+    }
+
+    &__paragraph-box {
+        margin: 0 2rem;
+    }
+
+}

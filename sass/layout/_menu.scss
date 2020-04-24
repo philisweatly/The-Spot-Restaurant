@@ -1,0 +1,49 @@
+.menu {
+    text-align: center;
+
+    &__textbox {
+        font-size: 1.3rem;
+        margin-top: 3rem;
+        
+    }
+
+    &__paragraph:not(:last-child) {
+        margin-bottom: 3rem;
+    }
+
+    &__image {
+        height: 20rem;
+        box-shadow: 0 3px 5px rgba(0, 0, 0, 0.4);
+        border-radius: 3px;
+        margin-bottom: 1.5rem;
+    }
+    
+    
+
+    &__title {
+        margin-top: 3rem;
+        font-size: 2.2rem;
+        margin-bottom: 4rem;
+    }
+
+    &__container {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    &__items {
+        flex-basis: 30%;
+    }
+
+    &__text {
+
+        &--main {
+            font-size: 2rem;
+        }
+
+        &--sub {
+            font-size: 1.3rem;
+        }
+    }
+
+}

@@ -1,0 +1,28 @@
+.header {
+    background-image: url(../../public/images/header.jpg);
+    @include headerBar;
+    
+    
+
+    &--menu {
+        background-image: url(../../public/images/menu.jpg);
+        @include headerBar;
+    }
+    
+    &--book {
+        background-image: url(../../public/images/book.jpg);
+        @include headerBar;
+    }
+
+    &__box {
+        padding-top: 34vh;
+    }
+
+    &__text {
+        text-align: center;
+        font-size: 4rem;
+        color: white;
+    }
+}
+
+

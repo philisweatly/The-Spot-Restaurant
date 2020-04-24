@@ -1,0 +1,29 @@
+@media(max-width: 687px) {
+    .menu__container {
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    .menu__items:not(:last-child) {
+        margin-bottom: 1.1rem;
+    }
+    
+}
+
+@media(min-width: 883px) {
+    .about__text--sub {
+        font-size: 1.3rem !important;
+    }
+
+    .menu__paragraph {
+        font-size: 1.5rem !important;
+    }
+}
+
+@media(min-width: 1000px) {
+    .about__text {
+        max-width: 80%;
+        margin: 0 auto;
+    }
+}
