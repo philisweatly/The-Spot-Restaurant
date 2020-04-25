@@ -16,6 +16,10 @@
     .formgroup:not(:last-child) {
         margin-bottom: 1.5rem;
     }
+
+    &__button {
+        margin-bottom: 3rem;
+    }
 }
 
 label,

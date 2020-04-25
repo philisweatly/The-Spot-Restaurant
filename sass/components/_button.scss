@@ -4,8 +4,19 @@ button {
     border-radius: 10px;
     box-shadow: 0 3px 5px rgba(0, 0, 0, 0.4);
     font-size: 1rem;
+    transition: all .3s;
+    background-color: rgba(185, 185, 185, 0.301);
 }
 
 button:hover {
     cursor: pointer;
+    transform: translateY(-4px);
+    box-shadow: 0 5px 12px rgba(0, 0, 0, 0.4);
+
+
+    &:active {
+        transform: translateY(-2px);
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+
+    }
 }

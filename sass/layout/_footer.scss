@@ -1,0 +1,46 @@
+.footer {
+    // margin-top: 5rem;
+    background-image: url(../../public/images/footer2.jpg); 
+    background-position: left;
+    background-size: cover;
+     
+    
+    
+    &__heading {
+        font-size: 3rem;
+        text-align: center;
+        font-weight: 200;
+        margin-bottom: 2rem;
+        padding-top: 2rem;
+    }
+    
+    &__box {
+        display: flex;
+        justify-content: space-around;
+        padding-bottom: 2rem;
+    }
+
+    &__linksbox {
+        flex-basis: 8%;
+        font-size: 2rem;
+    }
+
+    &__links {
+        list-style: none;
+        display: inline-block;
+
+    }
+
+}
+    
+
+.link {
+    margin-bottom: 1rem;
+
+    &--pages {
+        border-bottom: 2px solid black;
+    }
+
+}
+
+    
